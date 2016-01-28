@@ -7,6 +7,8 @@ import dagger.ObjectGraph;
 
 /**
  * Created by Manuel García.
+ *
+ *  * Application with injection Dagger
  */
 public class MarvelApp extends Application {
 

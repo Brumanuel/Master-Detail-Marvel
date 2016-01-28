@@ -1,3 +1,5 @@
 <resources>
-  <string name="app_name">MasterDetailMarvel</string>
+  <string name="app_name">Master-Detail Marvel</string>
+
+  <string name="error_loadin_data">Error loading data</string>
 </resources>

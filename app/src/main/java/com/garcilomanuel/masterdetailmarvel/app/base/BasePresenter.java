@@ -1,11 +1,11 @@
 package com.garcilomanuel.masterdetailmarvel.app.base;
 
-import android.view.View;
+import com.garcilomanuel.masterdetailmarvel.ui.View;
 
 /**
  * Created by Manuel García.
  *
- * Base presenter with type heritage.
+ * Base presenter with typed heritage.
  */
 public abstract class BasePresenter<T extends View> {
 
