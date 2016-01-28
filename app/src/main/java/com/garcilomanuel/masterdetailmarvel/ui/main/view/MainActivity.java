@@ -14,7 +14,7 @@ import javax.inject.Inject;
 /**
  * Created by Manuel García.
  */
-public class MainActivity extends BaseActivity implements View {
+public class MainActivity extends BaseActivity implements MainView {
 
   //Dependency injection
   @Inject protected MainPresenter mainPresenter;
@@ -38,6 +38,7 @@ public class MainActivity extends BaseActivity implements View {
     getSupportActionBar().setDisplayShowTitleEnabled(true);
   }
 
+  @Override
   public void showComicsListView() {
     ComicsListViewFragment comicsListViewFragment = new ComicsListViewFragment();
     getFragmentManager().beginTransaction()

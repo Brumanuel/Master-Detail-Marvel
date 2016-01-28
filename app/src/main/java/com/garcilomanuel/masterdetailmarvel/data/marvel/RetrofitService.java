@@ -7,7 +7,7 @@ import retrofit.http.Path;
 /**
  * Created by Manuel García.
  */
-public interface RetrofiteService {
+public interface RetrofitService {
 
   @GET("/v1/public/characters/{characterId}/comics")
   MarvelResponse getComics(@Path("characterId") int characterId);

@@ -17,7 +17,7 @@ public class MarvelRetrofitSource implements ComicDataSource {
 
   private final String TAG = this.getClass().getSimpleName();
 
-  private RetrofiteService retrofiteService;
+  private RetrofitService retrofitService;
   private MarvelApiToDomainMapper marvelApiToDomain;
 
   public MarvelRetrofitSource(MarvelApiToDomainMapper marvelApiToDomain) {
@@ -37,11 +37,11 @@ public class MarvelRetrofitSource implements ComicDataSource {
         .setRequestInterceptor(
             new MarvelRequestInterceptor(ApiParams.API_PUBLIC_KEY, ApiParams.API_PRIVATE_KEY))
         .build();
-    retrofiteService = restAdapter.create(RetrofiteService.class);
+    retrofitService = restAdapter.create(RetrofitService.class);
   }
 
   @Override
   public List<Comic> getComics(int characterId) {
-    return marvelApiToDomain.mapMarvelResponseToComics(retrofiteService.getComics(characterId));
+    return marvelApiToDomain.mapMarvelResponseToComics(retrofitService.getComics(characterId));
   }
 }
