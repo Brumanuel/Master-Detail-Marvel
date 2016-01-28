@@ -17,4 +17,5 @@ The application is made using a api cloud of comic Marvel, for explain the use o
 ### Develop by Manuel García López
 [garcilomanuel@gmail.com](mailto:garcilomanuel@gmail.com)
 - Twitter [@brumanuel](https://twitter.com/Brumanuel)
-- LinkedIn: https://es.linked
+- LinkedIn: [Manuel García](https://es.linkedin.com/in/garcilomanuel
+)
