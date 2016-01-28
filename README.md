@@ -12,7 +12,7 @@ The application is made using a api cloud of comic Marvel, for explain the use o
 ### Screenshots
 ## Potrait
 ![alt text](https://raw.githubusercontent.com/Brumanuel/Master-Detail-Marvel/master/art/screen1.jpg "")
-![alt text](https://raw.githubusercontent.com/Brumanuel/Master-Detail-Marvel/master/art/screen3.jpg "")
+![alt text](https://raw.githubusercontent.com/Brumanuel/Master-Detail-Marvel/master/art/screen2.jpg "")
 
 ### Develop by Manuel García López
 [garcilomanuel@gmail.com](mailto:garcilomanuel@gmail.com)
